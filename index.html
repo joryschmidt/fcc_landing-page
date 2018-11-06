@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+    <header id="header" class="header">
+      <img src="img/pilatus.jpg" alt="Head on view of pilatus prop" class="header__img" id="header-img" />
+      <h1 class="header__title">Lineman Gear</h1>
+      <nav id="nav-bar" class="nav">
+        <div class="nav__links">
+          <a class="nav-link" href="#main">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#products">Products</a>
+        </div>
+      </nav>
+    </header>
+    
+    <main id="main" class="main">
+      <h2 class="main__heading">Welcome to our shop</h2>
+      <div class="main__content">
+        <section class="vid">
+          <h3 class="vid__heading">You'll love our products so much, you'll be just like this guy!</h3>
+          <iframe id="video" class="video" width="560" height="315" src="https://www.youtube.com/embed/M3tSx5cYuNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="signup">
+          <h3 class="signup__heading">Sign up for our mailing list!</h3>
+          <form id="form" class="signup-form" action="https://www.freecodecamp.com/email-submit">
+            <input class="signup-form__input" type="email" name="email" id="email" placeholder="Enter your email" />
+            <input class="signup-form__input" type="submit" id="submit" value="Submit" />
+          </form>
+        </section>
+      </div>
+    </main>
+    
+    <section id="about" class="about">
+      <h3 class="about__heading">About Us</h3>
+      <span class="about__us">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+      magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+      quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+      ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+      dolor in hendrerit in vulputate velit esse molestie consequat,
+      vel illum dolore eu feugiat nulla facilisis at vero eros et
+      accumsan et iusto odio dignissim qui blandit praesent luptatum
+      zzril delenit augue duis dolore te feugait nulla facilisi.
+      Nam liber tempor cum soluta nobis eleifend option congue
+      nihil imperdiet doming id quod mazim placerat facer possim
+      assum. Typi non habent claritatem insitam; est usus legentis
+      in iis qui facit eorum claritatem. Investigationes
+      demonstraverunt lectores legere me lius quod ii legunt saepius.
+      Claritas est etiam processus dynamicus, qui sequitur mutationem
+      consuetudium lectorum. Mirum est notare quam littera gothica,
+      quam nunc putamus parum claram, anteposuerit litterarum formas
+      humanitatis per seacula quarta decima et quinta decima. Eodem
+      modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+      in futurum.</span>
+    </section>
+    <section id="products" class="products">
+      <a class="product" href="https://www.hivissupply.com/gss-safety-1003-1004-class-2-hi-vis-mesh-hook-loop-safety-vest.html" target="_blank">
+        <img src="img/vest.jpg" alt="safety vest" class="product__img" />
+        <div class="product__info">
+          <span class="product__title">Hi-Vis Vest</span>
+          <span class="product__description">A basic necessity for any lineman</span>
+          <span class="product__price">$10.00</span>
+        </div>
+      </a>
+      
+      <a class="product" href="http://www.marvgolden.com/david-clark-tri-fit-model-310-hearing-protector.html?gclid=Cj0KCQiA8f_eBRDcARIsAEKwRGde8eVT01wh0Hmb1qHdSVLM0QKjAiSX5UAWZTccZkUKEwryvxjJC0EaAmT6EALw_wcB" target="_blank">
+        <img src="img/ears.jpg" alt="hearing protection" class="product__img" />
+        <div class="product__info">
+          <span class="product__title">Over-Ear Hearing Protection</span>
+          <span class="product__description">Don't go deaf by age 40 with your own personal set of hearing protection</span>
+          <span class="product__price">$38.00</span>
+        </div>
+      </a>      
+      
+      <a class="product" href="https://www.carhartt.com/category/carhartt-men-bibs-coveralls-overalls" target="_blank">
+        <img src="img/carhartt.jpg" alt="hearing protection" class="product__img" />
+        <div class="product__info">
+          <span class="product__title">Carhartt's</span>
+          <span class="product__description">Don't freeze in the winter. That's important.</span>
+          <span class="product__price">$140.00</span>
+        </div>
+      </a>
+    </section>
+    
+    <footer class="footer" id="footer">
+      <ul class="footer__links">
+        <li class="footer__links__item"><a href="#main" class="link">Home</a></li>
+        <li class="footer__links__item"><a href="#about" class="link">About</a></li>
+        <li class="footer__links__item"><a href="#products" class="link">Products</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
